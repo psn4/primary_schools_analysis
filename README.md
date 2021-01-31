@@ -4,7 +4,7 @@ This script will load the last few years of key stage 2 data and make it relativ
 
 ## usage
 
- * Install [KDB](https://kx.com/download/)
+ * Install [KDB](https://kx.com/download/) and if needed a GUI ( [studio](https://github.com/CharlesSkelton/studio) , [qpad](http://www.qinsightpad.com/download.html))
  * Clone the project
  * Launch the script (open a port if connecting via a GUI)
 ```
