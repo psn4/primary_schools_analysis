@@ -1,5 +1,5 @@
 \c 25 188
-csvTypes:"****IS***SS******SS**********************************************I***I***I************************************************************************************************************************************************************************************************************************";
+csvTypes:"****IS***SS******SSSS********************************************I***I***I************************************************************************************************************************************************************************************************************************";
 desiredCols:`URN`SCHNAME`TOWN`PCODE`RELDENOM`AGERANGE`PTKS1GROUP_L`PTKS1GROUP_H`PTEALGRP2`PTRWM_EXP`PTRWM_HIGH`PTREAD_EXP`PTREAD_HIGH`PTGPS_EXP`PTGPS_HIGH`PTMAT_EXP`PTMAT_HIGH`PTWRITTA_EXP`PTWRITTA_HIGH`READ_AVERAGE`GPS_AVERAGE`MAT_AVERAGE;
 stripPercCols:`PTKS1GROUP_L`PTKS1GROUP_H`PTEALGRP2`PTRWM_EXP`PTRWM_HIGH`PTREAD_EXP`PTREAD_HIGH`PTGPS_EXP`PTGPS_HIGH`PTMAT_EXP`PTMAT_HIGH`PTWRITTA_EXP`PTWRITTA_HIGH;
 newColMap:.[!]2#enlist desiredCols;
